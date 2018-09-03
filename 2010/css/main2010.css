@@ -1,0 +1,183 @@
+/* CSS Document */
+
+* { margin:0; padding:0}
+
+.clear {clear:both}
+
+body {text-align:left;font: normal normal 14px/20px Georgia, "Times New Roman", Times, serif;line-height: 1.5em;background:#0e0e0e;}
+
+a:link, a:visited{color:#666666}
+
+a:hover {color:#999999}
+
+#wrapper {position:absolute;top:0px; left:0px; width:100%;height:600px;margin:0px;padding:0px;background:#e0e0e0 url(address.jpg) center left no-repeat;border-bottom:3px dotted #0e0e0e;}
+
+#content {position:absolute;top:0px; left:130px;width:800px;height:100%;}
+
+#fotolist {width:800px;height:560px;top:20px;padding:20px 0 0;float:left; color:#000000; overflow:hidden;}
+
+	#fotolist h1 {font-size:20px}
+
+	#fotolist h2 {font-size:15px}
+
+	#fotolist h3 {font: normal normal 12px/14px;font-weight:lighter;}
+
+	#fotolist h4 {font: normal normal 10px/12px}
+
+	#fotolist #contento {padding:20px 0 0; list-style:none}
+
+	#fotolist #contento img{border: 3px solid #4A5C6A;}
+
+
+
+	#fotolist ul li a {text-decoration:none;font: 200 1.2em arial, sans-serif;color: #fff}
+
+	
+
+	#video {width:800px;height:560px; position:absolute;top:105px;float:left;display:block}
+
+	#video01 {width:800px;height:560px; position:absolute;top:120px;float:left;display:none}
+
+	#video02 {width:800px;height:560px; position:absolute;top:120px;float:left;display:none}
+
+	#video03 {width:800px;height:560px; position:absolute;top:120px;float:left;display:none}
+
+	#Bottom { width:800px;height:125px; position:absolute;margin-top:400px;}
+
+		#Bottom	img {border: 3px solid #4A5C6A;}
+
+<!---------OLD--------------->	
+
+	/*background: transparent url(images/bgRight.jpg) top center; filter:alpha(opacity=05);-moz-opacity:.05;opacity:.05;
+
+	float:left;*/
+
+
+
+#bannerbig {margin-top:35px;margin-right:20px;width:810px;height:450px;float:right;background:#0e0e0e;}
+
+.iframe{width:810px; height:450px; border:0px;background:#0e0e0e;}
+
+	#iwrapper{position:absolute;top:0px; left:0px; z-index:990;width:820px;height:460px;margin:0px;padding:0px;background:#e0e0e0}
+
+	.ileft{width:500px; height:500px; float:left}
+
+	.icenter{width:800px; height:440px; margin:0 auto; padding-left:250px}
+
+	.iright{width:290px; height:500px; float:right; padding:5px; margin-right:5px}
+
+	.ptQds{width:50px; height:50px; overflow:hidden; margin:370px 30px 0px; float:left; background: #000000 no-repeat center; padding:10px;border:5px solid #0e0e0e;}
+
+#tagaddress {margin-top:43px;margin-left:0px;width:120px;height:450px;float:left;background: transparent url(images/address.jpg) top left no-repeat}
+
+#youtube {margin-top:45px;margin-right:10px;width:746px;height:413px;float:right; color:#000000}
+
+
+
+#tagaddressOg {margin-top:35px;margin-left:10px;width:120px;height:320px;float:left;}
+
+#chamada {
+
+		padding-top:400px;/*margin-left:10px;width:120px;height:320px;float:left;
+
+		background: transparent url(images/address.jpg) top left; position:relative;*/
+
+}
+
+
+
+#greenBottom {
+
+	/*top:0px; left:0px;*/
+
+	width:100%;height:100%;
+
+	margin:0px;padding:0px;
+
+	position:absolute;
+
+}
+
+/* ------------ MENU ------------*/
+
+#menu{ height:50px}
+
+	#menu ul {width:990px}
+
+		#menu ul li {display:inline;margin:0;list-style:none}
+
+			#menu ul li a {width:160px;padding:25px 0px 0px;float:left;text-decoration:none;font: 75 0.8em arial,sans-serif;color:#000000; text-align:center}
+
+			#menu ul li a span {display:block;padding:3px 0px;}
+
+			#menu ul li a.desc:hover {color:#330000; text-decoration:underline}
+
+			#menu ul li a:hover
+
+			#menu ul li a.here {background: #1E2A31;border:1px solid #4A5C6A;border-bottom: 5px solid #4A5C6A;}
+
+			#menu ul li a:hover span.desc
+
+			#menu ul li a.here span.desc {color: #FFF; background-color:#000000}
+
+			
+
+#navPg{position:fixed; right:0px; bottom:0px; z-index:750}
+
+	#navPg .qd{width:65px; height:35px; float:left; background-color:#999999; text-align:center; border-bottom: 5px solid #4A5C6A;line-height:35px; font-size:18px; text-decoration:none; color:0e0e0e}
+
+	#navPg .qd:hover{ background-color:#0e0e0e; color:#e0e0e0; border-bottom: 5px solid #990000;}
+
+
+
+
+
+
+
+/* LAYOUT - COLORS */
+
+	.icenter h1 {font-size:60px; font-stretch:wider; text-transform:uppercase;line-height:40px; margin-top:20px; padding-bottom:10px; border-bottom:1px solid #333}
+
+	.icenter h3 {font-size:16px; letter-spacing:12px; text-transform:lowercase; font-weight:lighter;margin-left:15px }
+
+	.icenter h5 {font-size:8px;margin-left:15px}
+
+	
+
+	.right{float:right}
+
+	.left{float:left}
+
+	
+
+	.gray2 {color:#2d2d2d}
+
+	.gray3 {color:#3d3d3d}
+
+	.gray4 {color:#4d4d4d}
+
+	.grayb {color:#bdbdbd}
+
+	.graye {color:#ededed}
+
+	.h500{height:500px}
+
+	.mar60{margin:60px 0px}
+
+	.pad60{padding:60px 0px}
+
+	.pad270left{padding-left:270px}	
+
+	.pad60top{padding-top:60px}
+
+	.pad340top{padding-top:340px}
+
+	.w675{width:675px}
+
+	.white {color:#ffffff}
+
+	.red9 {color:#990022}
+
+	.line1vert {color:#eeeeee}
+
+	.bgRight {background #de3 url(../images/backgroundRight.jpg) no-repeat top right}

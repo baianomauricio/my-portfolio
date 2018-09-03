@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Ricardo Mameri</title>
+</head>
+<!--  Formulario de Contato -->
+
+<div id="form">
+<p class="2lines"><strong>Request a quote or say hello</strong><br />
+
+If you would like an estimate or a proposal for any web or design related work, please fill in the form.</p><br /><br />
+<form id="contact" action="" method="post" onsubmit="return configForm(this);" style="position: relative; z-index: 2;">
+
+
+
+        <p>
+          <input type="text" size="20" name="name" value="Name" onfocus="clearValue(this, 'Name');" onblur="fillValue(this, 'Name');"/>
+        </p>
+<br />
+        <p class="2lines">
+          <input type="text" name="email" value="E-mail" onfocus="clearValue(this, 'E-mail');" onblur="fillValue(this, 'E-mail');"/>
+        </p>
+<br />
+        <p class="2lines">
+          <input type="text" name="subject" value="Subject" onfocus="clearValue(this, 'Subject');" onblur="fillValue(this, 'Subject');"/>
+        </p>
+<br />
+        <p class="2lines">
+          <textarea name="message" rows="3" cols="20" onfocus="clearValue(this, 'Message');" onblur="fillValue(this, 'Message');">Message</textarea>
+        </p>
+<br />
+        <p class="2lines">
+          <input type="submit" value="SEND" class="button" />
+          <input type="reset" value="RESET" class="button" />
+        </p>
+
+      </form>
+      
+      </div>
+
+<!-- Fim do Formulario -->            
+<body>
+</body>
+</html>
