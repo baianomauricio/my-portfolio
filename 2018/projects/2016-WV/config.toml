@@ -1,0 +1,126 @@
+baseurl = "/"
+languageCode = "en"
+title = "Mauricio Portfolio - Web Viewer r14"
+theme = "vex-hugo"
+
+[params]
+  description = ""
+
+  # Put your custom stylesheets and scripts
+  custom_stylesheets = []
+  custom_scripts = []
+
+  # Additional meta
+  [[params.meta]]
+    name = ""
+    description = ""
+
+  # Navigation bar informations
+  [params.navbar]
+    logo = "Vex"
+    [[params.navbar.menu]]
+      link = "#"
+      text = "HOME"
+    [[params.navbar.menu]]
+      link = "#about"
+      text = "ABOUT"
+    [[params.navbar.menu]]
+      link = "#service"
+      text = "SERVICES"
+    [[params.navbar.menu]]
+      link = "#contact"
+      text = "CONTACT"
+
+  # Header
+  [params.header]
+    title = "CA Output Management Web Viewer r.14"
+    text = "The best way to explain this product is to make an analogy with Adobe Acrobat. Web Viewer is an application to provide access to documents and reports stored in the enterprise, focused on the Mainframe environment in special. Leveraging the mainframe's scalability and security, WV allows defining how and when documents can be accessed."
+    [params.header.image]
+      path = "images/watch.png"
+      alt = "Watch"
+    [params.header.button]
+      link = "https://www.ca.com/us/products/ca-output-management-web-viewer.html"
+      text = "Read more about the product"
+
+  # Features
+  [params.features]
+    title = "Background"
+    [params.features.image]
+      path = "images/watch-2.png"
+      alt = "Watch"
+    # Menu at the left of the image
+    [[params.features.left]]
+      icon = "tf-ion-ios-alarm-outline"
+      title = "Target Audience"
+      text = "Folks using of a product lead to having no understanding of how they met Frameworks the intention was to reduce any complexity related to access in Mainframe documents and develop a web app that can be used by anyone in the organization from Auditors to the c-suite folks."
+    [[params.features.left]]
+      icon = "tf-ion-ios-bell-outline"
+      title = "Product Team"
+      text = "Following the scaled agile framework safe we had for all the products on our Valley Stream our team was composed by one product owner one product manager to Doc writers 6 front end Engineers to scram Masters 8 back and developers and 3 architects."
+    [[params.features.right]]
+      icon = "tf-ion-ios-cart-outline"
+      title = "My Role"
+      text = "I joined the project to replace a UX Designer who was having trouble connecting with the team. They were developing a proof-of-concept using AngularJS which reduced the loading time of large reports from 20 minutes to 30 seconds. The POC was a success and the project became my full-time allocation."
+    # Menu at the right of the image
+    [[params.features.right]]
+      icon = "tf-ion-ios-alarm-outline"
+      title = "My Deliverables"
+      text = "I joined the project to replace a UX Designer who was having trouble connecting with the team. They were developing a proof-of-concept using AngularJS which reduced the loading time of large reports from 20 minutes to 30 seconds. The POC was a success and the project became my full-time allocation."
+
+  [params.promo]
+    title = "Designed by professional , the benefit for creative gigs"
+    text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.  \nLorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum."
+    [params.promo.image]
+      path = "images/watch.png"
+      alt = "Watch"
+
+  [params.feature_list]
+    title = "Why Choose Apple Watch"
+    [[params.feature_list.items]]
+      image = "images/showcase/showcase-4.png"
+      title = "Lorem ipsum dolor sit amet."
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit quas, quo harum deserunt consequatur cumque!"
+      button_link = ""
+      button_text = "Check Features"
+    [[params.feature_list.items]]
+      image = "images/showcase/showcase-3.png"
+      title = "Lorem ipsum dolor sit amet."
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit quas, quo harum deserunt consequatur cumque!"
+      button_link = ""
+      button_text = "Check Features"
+
+  [params.gallery]
+    title = "Checkout some amazing Shorts"
+    # Set the image directory to use as base
+    directory = "images/showcase"
+    # Set the images to show in the gallery
+    images = ["showcase-1.png", "showcase-2.png", "showcase-3.png", "showcase-4.png", "showcase-5.png", "showcase-6.png", "showcase-7.png", "showcase-8.png"]
+
+  [params.call_to_action]
+    title = "Get Product Updates"
+    text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+    placeholder = "Your Email Address Here"
+    button_text = "Subscribe"
+
+  [params.testimonials]
+    title = "Watch Review"
+    [[params.testimonials.blocks]]
+      text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      name = "Jonathon Andrew"
+      position = "CEO, Themefisher"
+      image = "images/avater.png"
+    [[params.testimonials.blocks]]
+      text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      name = "Jonathon Andrew"
+      position = "CEO, Themefisher"
+      image = "images/avater.png"
+    [[params.testimonials.blocks]]
+      text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      name = "Jonathon Andrew"
+      position = "CEO, Themefisher"
+      image = "images/avater.png"
+    [params.testimonials.button]
+      link = ""
+      text = "Grab You Product Now"
+
+  # Footer uses navbar data
