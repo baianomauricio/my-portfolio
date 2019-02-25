@@ -1,0 +1,106 @@
+201902 - FAcebook interview
+
+
+
+
+
+<y role, personas 
+makwe decisions
+data to support decisions
+influence to make designer 
+
+
+
+
+use case and purpose of the app
+problem space
+focus on the user themselves, not me. and point the painpoints
+frustrations for users and solutions.
+curious and detailed on the interview
+how can it stay relevant against the competitors
+visual design
+visual identity
+6
+
+
+6 areas
+hard skills
+product thinking, make intentionsl decisions
+
+
+
+
+1 - 
+
+CA Data Content Discovery
+Feature: Expression Builder
+
+INTRO
+
+Let me take this opportunity to talk a bit about my role on this product. I joined the team to Lead the Enterprise Data Protection Value Stream with a set of 5 products, DCD is one. I got a couple of projects to work on for a couple of the products under that VS. 
+
+2 - 
+
+BACKGROUND:
+
+“1,027 breaches reported with 57,667,911 records compromised as Nov. 2, 2018”.
+Source: Identity Theft Resource Center
+
+	PROBLEM SPACE:
+
+	The scale of data breaches in 2018 has been staggering, with more than 1000 breaches reported and 57,667,911 records compromised, according to the Identity Theft Resource Center (ITRC).
+	Sensitive information is stored on mainframe computers all around the world and breaches are becoming ordinary events of modern life. To prevent violations, companies need to monitor the data they store and be compliant with current regulations.
+
+
+3 - 
+
+PERSONA:
+
+Cathy
+Chief Information Security Officer(CISO) /
+Compliance Officer.
+
+Gender: Female.
+Age: 58.	
+Role: Influencer and requestor of primary user.
+Education: Bachelor's Degree, Masters Degree, CISSP Certification, training at decades of conferences.
+
+Career: Worked her way up through computer operations and security administration, CISO at several other large companies as well. Decades of experience with several organizations, mainly in the distributed environment(Windows, UNIX, Linux).
+Personal: She likes preventing issues and solving problems. She prides herself in getting the job done regardless of issues that can arise when determining the resolution.
+
+Role / Responsibilities:
+She is responsible for filling the roles of Responder, Protector, and Influencer for her organization’s security. She focuses on mitigating current risks, threats, and management of regulatory and compliance issues while planning for reduction of potential future risk.
+Typical Day:
+Her day sometimes starts with emails and calls regarding any security incidents from the night before that she might not have been involved in. She often gets calls from executives seeking information on security policies of the organization and she spends much of her day mitigating perceived threats and risks raised from her direct reports and other areas around the organization.
+Goals / Outlook:
+She wants to be predictive and proactive about identifying threats within the system as much as possible.
+
+	THE PERSONA:
+
+	I’m illustrating the CISO but there were a couple of others such as the Security Administrator for the mainframe or the Internal Auditor.
+	Cathy has an interesting background in security administration and she has worked at other large companies. Note that her expertise is on the distributed environment which is interesting for us since DCD is a mainframe product.
+
+4 -
+
+PRODUCT:
+
+
+4.1 - Data discovery and classification.
+
+
+CA Data Content Discovery
+
+Data discovery and classification is a critical preventive step to secure a mainframe infrastructure and help to identify which data sets contain personal data and who has access to it. DCD is able to scan the mainframe and highlight exposure risks.
+
+5 - 
+
+FEATURE:
+
+
+
+THE EXPRESSION BUILDER:
+
+The expression builder was introduced to help users look for complex combinations of classifiers included on government regulations, such as The General Data Protection Regulation (GDPR) which address the collection and processing of personal information of individuals within the European Union (EU).
+
+
+
